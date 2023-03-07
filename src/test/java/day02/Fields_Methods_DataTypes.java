@@ -3,20 +3,19 @@ package day02;
 public class Fields_Methods_DataTypes {
 
 
-
-/**
- 1) Field / Variable=>
- int A = 115;
- int: field data type
- A: field name
- 115: field value
- 2) Method / Function=>
- void number(){ }
- NOTE:
- * package name start with lowercase
- * class is starting with uppercase
- * we use camel method for name => selmanMudurMardinNYC
- */
+    /**
+     * 1) Field / Variable=>
+     * int A = 115;
+     * int: field data type
+     * A: field name
+     * 115: field value
+     * 2) Method / Function=>
+     * void number(){ }
+     * NOTE:
+     * package name start with lowercase
+     * class is starting with uppercase
+     * we use camel method for name => selmanMudurMardinNYC
+     */
 
 
 // DataType: Primitive DataTypes and Non-Primitive/Reference
@@ -25,39 +24,39 @@ public class Fields_Methods_DataTypes {
 
 // Character:
     char ch1 = 'a';
-            char ch2 = '3';
-            char ch3 = '%'; //semi-column
+    char ch2 = '3';
+    char ch3 = '%'; //semi-column
 
-            // True and false:
-            boolean bl1 = true;
-            boolean bl2 = false;
+    // True and false:
+    boolean bl1 = true;
+    boolean bl2 = false;
 
-            // Whole number:   byte < short < int < long
-            byte by = 12;
-            short sh = 1121;
-            int in = 12131313; //********
-            long lg = 123124832;
+    // Whole number:   byte < short < int < long
+    byte by = 12;
+    short sh = 1121;
+    int in = 12131313; //********
+    long lg = 123124832;
 
-            // Decimal Number: float < double
-            float fl = 15.23f;
-            double dl = 154.415245; //*******
+    // Decimal Number: float < double
+    float fl = 15.23f;
+    double dl = 154.415245; //*******
 
-            // Common primitive data type:
-            // char, boolean, int, double
-
-
-            // B) Non-Primitive: String
-            String nameCity = "Denver";
-            String name2 = "15";
-            String name3 = "$$$$$$$%%%%%^^^&*()_#%!@#";
-static String name1 = "3128---**%^&*&tqweq";
-
-        String nm1 = "Emrah", nm2 = "Tugce", nm3 = "Selman";
-        int n1 = 5, n2 = 4;
+    // Common primitive data type:
+    // char, boolean, int, double
 
 
-// METHOD / FUNCTION:
-public static void main(String[] args) {
+    // B) Non-Primitive: String
+    String nameCity = "Denver";
+    String name2 = "15";
+    String name3 = "$$$$$$$%%%%%^^^&*()_#%!@#";
+    static String name1 = "3128---**%^&*&tqweq";
+
+    String nm1 = "Emrah", nm2 = "Tugce", nm3 = "Selman";
+    int n1 = 5, n2 = 4;
+
+
+    // METHOD / FUNCTION:
+    public static void main(String[] args) {
         mt1();
         System.out.println(mt2());
         System.out.println(mt3());
@@ -68,11 +67,11 @@ public static void main(String[] args) {
         mt5(name1);
         // System.err.println(mt5(nameSam1));
 
-        }
+    }
 
-static String mt5(String nameSam) {
+    static String mt5(String nameSam) {
         return nameSam;
-        }
+    }
 
 // public: Access modifier
 // static: key, heryerde kullanabilmek iicin ve hafizada cok yer kaplamamk icin kullanilir
@@ -81,28 +80,28 @@ static String mt5(String nameSam) {
 // ** () : parameters
 // ** {} : method function or method body
 
-static void mt1() {
+    static void mt1() {
         System.out.println("mt1");
         System.out.println("mt1");
         System.out.println("mt1");
         System.out.println("mt1");
-        }
+    }
 
-static String mt2() {
+    static String mt2() {
         return "mt2-Name";
-        }
+    }
 
-static int mt3() {
+    static int mt3() {
         return 3;
-        }
+    }
 
-static boolean mt4() {
+    static boolean mt4() {
         return true;
-        }
+    }
 
-        char ch10() {
+    char ch10() {
         return 'a';
-        }
+    }
 
 
-        }
+}

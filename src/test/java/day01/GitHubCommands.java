@@ -14,7 +14,7 @@ public class GitHubCommands {
     git config --list
 
     2) Eger github credential yapildiysa pc de ve ilk defa projeye baslanilacaksa:
-    git init (Yeni Proje baslanildiginda sadece bir defaf yazilir)
+    git init (Yeni Proje baslanildiginda sadece bir defa yazilir)
     git status
     git add .
     git commit -m "first commit"
